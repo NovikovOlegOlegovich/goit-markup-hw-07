@@ -17,6 +17,7 @@
   --white-color: #ffffff;
   --black-color: #000000;
 }
+/* SASS */
 
 body {
   background-color: var(--white-color);
@@ -27,7 +28,7 @@ body {
   letter-spacing: 0.03em;
   line-height: 1.71;
 }
-/* OK */
+/* OK *//* SASS */
 
 /* Utility classes */
 
