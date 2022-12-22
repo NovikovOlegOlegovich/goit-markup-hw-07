@@ -1,21 +1,22 @@
-$primary-text-kolor: #757575;
-$title-text-color: #212121;
-$primary-background-color: #f5f5f5;
-$secondary-background-color: #f5f4fa;
-$hero-background-color: #2f303a;
-$accent-color: #2196f3;
-$white-color: #ffffff;
-$black-color: #000000;
+@import 'utils/vars.scss';
+@import 'utils/mixin.scss';
+@import 'base/general-classes';
+@import 'base/comon-classes.scss';
+@import 'components/container.scss';
+@import 'components/logo.scss';
+@import 'layouts/header/header.scss';
+@import 'layouts/header/navigation__list.scss';
+@import 'layouts/header/contacts.scss';
+@import 'layouts/section-hero/hero.scss';
+@import 'layouts/section-advantages/advantages.scss';
+@import 'layouts/section-work-directions/work-directions__list.scss';
+@import 'layouts/section-our-team/team.scss';
+@import 'layouts/section-our-team/soc-list.scss';
+@import 'layouts/section-clients/clients.scss';
+@import 'layouts/footer/footer.scss';
+@import 'layouts/modal/modal.scss';
 
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    line-height: 1.71;
-
-     background-color: $white-color;
-     color: $primary-text-kolor;
-}
-
-/* Utility classes */
-
+@import 'layouts/header/navigation__list.scss';
+@import 'layouts/header/contacts.scss';
+@import 'layouts/portfolio-filter-nav/filter-nav.scss';
+@import 'layouts/portfolio-card-list/card-list.scss';
